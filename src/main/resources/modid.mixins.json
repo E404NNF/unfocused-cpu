@@ -1,0 +1,14 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "me.e404nnf.mods.unfocusedcpu.d",
+  "compatibilityLevel": "JAVA_8",
+  "mixins": [
+  ],
+  "client": [
+    "DoTheStuff"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
