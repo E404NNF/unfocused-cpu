@@ -1,12 +1,12 @@
 {
   "required": true,
   "minVersion": "0.8",
-  "package": "me.e404nnf.mods.unfocusedcpu.d",
+  "package": "me.e404nnf.mods.unfocusedcpu.mixins",
   "compatibilityLevel": "JAVA_8",
   "mixins": [
   ],
   "client": [
-    "DoTheStuff"
+    "MixinGameRenderer"
   ],
   "injectors": {
     "defaultRequire": 1

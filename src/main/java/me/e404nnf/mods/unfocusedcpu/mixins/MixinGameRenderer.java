@@ -1,4 +1,4 @@
-package me.e404nnf.mods.unfocusedcpu.d;
+package me.e404nnf.mods.unfocusedcpu.mixins;
 
 import org.spongepowered.asm.mixin.Final;
 import org.spongepowered.asm.mixin.Mixin;
@@ -11,7 +11,7 @@ import net.minecraft.client.MinecraftClient;
 import net.minecraft.client.render.GameRenderer;
 
 @Mixin(GameRenderer.class)
-public class DoTheStuff {
+public class MixinGameRenderer {
 	@Shadow @Final private MinecraftClient client;
 	
 	@Inject(method = "render", at = @At("HEAD"), cancellable = true)
