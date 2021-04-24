@@ -4,7 +4,7 @@
   "version": "${version}",
 
   "name": "Unfocused CPU",
-  "description": "idfk tbh, just, makes your game freeze when you unfocus it, yay....",
+  "description": "Preserves CPU usage when Minecraft isn't focused",
   "authors": [
     "E404NNF"
   ],
@@ -23,7 +23,7 @@
     ]
   },
   "mixins": [
-    "modid.mixins.json"
+    "unfocusedcpu.mixins.json"
   ],
 
   "depends": {
